@@ -1,97 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+import Header from '../components/Header/Header';
 const HomeScreen = () => {
   return (
     <div>
       <div className='w-full'>
-        <nav className='container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-0'>
-          <div className='flex flex-wrap items-center justify-between w-full lg:w-auto'>
-            <a href='#'>
-              <span className='flex font-medium text-2xl text-center text-indigo-500'>
-                <img
-                  className='w-8'
-                  src='https://nextly.web3templates.com/img/logo.svg'
-                  alt='N'
-                  loading='lazy'
-                  width='32'
-                  height='32'
-                />
-                <span>Nextly</span>
-              </span>
-            </a>
-
-            <button
-              className='lg:hidden ml-auto'
-              id='headlessui-disclosure-button-:r0:'
-              aria-label='Toggle Menu'
-              aria-expanded='false'
-              data-headlessui-state=''
-            >
-              <svg
-                className='w-6 h-6 fill-current'
-                xmlns='http://www.w3.org/2000/svg'
-                viewBox='0 0 24 24'
-              >
-                <path
-                  fillRule='evenodd'
-                  d='M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z'
-                ></path>
-              </svg>
-            </button>
-          </div>
-          <div className='lg:flex hidden'>
-            <ul className='lg:flex text-lg'>
-              <li className='mr-3 nav__item'>
-                <a
-                  href='#'
-                  className='px-4 py-2 no-underline rounded-md hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100'
-                >
-                  Product
-                </a>
-              </li>
-              <li className='mr-3 nav__item'>
-                <a
-                  href='#'
-                  className='px-4 py-2 no-underline rounded-md hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 hover:text-indigo-500'
-                >
-                  Features
-                </a>
-              </li>
-              <li className='mr-3 nav__item'>
-                <a
-                  href='#'
-                  className='px-4 py-2 no-underline rounded-md hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 hover:text-indigo-500'
-                >
-                  Pricing
-                </a>
-              </li>
-              <li className='mr-3 nav__item'>
-                <a
-                  href='#'
-                  className='px-4 py-2 no-underline rounded-md hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 hover:text-indigo-500'
-                >
-                  Company
-                </a>
-              </li>
-              <li className='mr-3 nav__item'>
-                <a
-                  href='#'
-                  className='px-4 py-2 no-underline rounded-md hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 hover:text-indigo-500'
-                >
-                  Blog
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div className='hidden lg:flex nav__item'>
-            <a
-              href='#'
-              className='px-6 py-2 text-white bg-indigo-600 rounded-md'
-              id=''
-            >
-              Get Started
-            </a>
-          </div>
-        </nav>
+        <Header />
       </div>
 
       <div className='container p-8 mx-auto xl:px-0 flex flex-wrap '>
