@@ -61,9 +61,9 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className='bg-white'>
+    <header className='bg-white '>
       <nav
-        className='flex flex-wrap items-center justify-between px-16 py-8 mx-auto '
+        className='flex flex-wrap items-center justify-between  mx-auto max-w-7xl px-4 sm:px-6 lg:px-0 py-5 '
         aria-label='Global'
       >
         <div className='flex lg:flex-1'>
@@ -90,7 +90,7 @@ export default function Header() {
         </div>
         <Popover.Group className='hidden lg:flex lg:gap-x-12'>
           <Popover className='relative'>
-            <Popover.Button className='flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900'>
+            <Popover.Button className='flex items-center gap-x-1 text-lg font-semibold leading-6 text-gray-900'>
               Product
               <ChevronDownIcon
                 className='h-5 w-5 flex-none text-gray-400'
@@ -152,19 +152,22 @@ export default function Header() {
             </Transition>
           </Popover>
 
-          <a href='#' className='text-sm font-semibold leading-6 text-gray-900'>
+          <a href='#' className='text-lg font-semibold leading-6 text-gray-900'>
             Features
           </a>
-          <a href='#' className='text-sm font-semibold leading-6 text-gray-900'>
+          <a href='#' className='text-lg font-semibold leading-6 text-gray-900'>
             Marketplace
           </a>
-          <a href='#' className='text-sm font-semibold leading-6 text-gray-900'>
+          <a href='#' className='text-lg font-semibold leading-6 text-gray-900'>
             Company
           </a>
         </Popover.Group>
         <div className='hidden lg:flex lg:flex-1 lg:justify-end'>
-          <a href='#' className='text-sm font-semibold leading-6 text-gray-900'>
-            Contact Us <span aria-hidden='true'>&rarr;</span>
+          <a
+            href='#'
+            className='text-sm font-semibold leading-6 bg-indigo-500 px-4 py-2 rounded-md text-white'
+          >
+            Contact Us
           </a>
         </div>
       </nav>
