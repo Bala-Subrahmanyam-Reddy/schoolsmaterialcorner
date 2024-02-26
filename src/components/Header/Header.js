@@ -67,7 +67,7 @@ export default function Header() {
         aria-label='Global'
       >
         <div className='flex lg:flex-1'>
-          <a href='#' className='-m-1.5 p-1.5 flex items-center space-x-1'>
+          <a href='/' className='-m-1.5 p-1.5 flex items-center space-x-1'>
             <img
               className='h-8 w-auto'
               src='https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600'
@@ -152,7 +152,10 @@ export default function Header() {
             </Transition>
           </Popover>
 
-          <a href='#' className='text-lg font-semibold leading-6 text-gray-900'>
+          <a
+            href='/about'
+            className='text-lg font-semibold leading-6 text-gray-900'
+          >
             About Us
           </a>
           <a href='#' className='text-lg font-semibold leading-6 text-gray-900'>
