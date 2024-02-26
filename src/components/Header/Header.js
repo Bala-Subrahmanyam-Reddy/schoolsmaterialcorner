@@ -1,4 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+import logo from '../../assests/schoolmaterialscorner-logo.png';
 import { Fragment, useState } from 'react';
 import { Dialog, Disclosure, Popover, Transition } from '@headlessui/react';
 import {
@@ -68,11 +69,7 @@ export default function Header() {
       >
         <div className='flex lg:flex-1'>
           <a href='/' className='-m-1.5 p-1.5 flex items-center space-x-1'>
-            <img
-              className='h-8 w-auto'
-              src='https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600'
-              alt=''
-            />
+            <img className='w-14 h-12' src={logo} alt='' />
             <span className='text-indigo-500 text-xl font-semibold'>
               Schools Material Corner
             </span>
