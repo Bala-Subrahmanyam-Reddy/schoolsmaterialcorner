@@ -19,34 +19,28 @@ import {
 
 const products = [
   {
-    name: 'Analytics',
+    name: 'School Uniforms',
     description: 'Get a better understanding of your traffic',
     href: '#',
     icon: ChartPieIcon,
   },
   {
-    name: 'Engagement',
+    name: 'Ties',
     description: 'Speak directly to your customers',
     href: '#',
     icon: CursorArrowRaysIcon,
   },
   {
-    name: 'Security',
+    name: 'Belts',
     description: 'Your customers’ data will be safe and secure',
     href: '#',
     icon: FingerPrintIcon,
   },
   {
-    name: 'Integrations',
+    name: 'Books',
     description: 'Connect with third-party tools',
     href: '#',
     icon: SquaresPlusIcon,
-  },
-  {
-    name: 'Automations',
-    description: 'Build strategic funnels that will convert',
-    href: '#',
-    icon: ArrowPathIcon,
   },
 ];
 const callsToAction = [

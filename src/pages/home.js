@@ -8,16 +8,20 @@ const HomeScreen = () => {
         <Header />
       </div>
 
-      <div className='container p-8 mx-auto xl:px-0 flex flex-wrap '>
+      <div className='container p-8 mx-auto   xl:px-0 flex flex-wrap '>
         <div className='flex items-center w-full lg:w-1/2'>
           <div className='max-w-2xl mb-8'>
-            <h1 className='text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight'>
-              Free Landing Page Template for startups
+            <h1 className='text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight  xl:leading-tight'>
+              Schools Materiel Corner is One stop solution for all your school
+              needs.
             </h1>
-            <p className='py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl '>
-              Nextly is a free landing page &amp; marketing website template for
-              startups and indie projects. Its built with Next.js &amp;
-              TailwindCSS. And its completely open-source.
+            <p className='py-5 text-xl leading-normal text-gray-500  '>
+              We offer a long and extended assortment of Uniforms, tie,
+              belts,diaries in all ranges of sizes and fitting. keeping school
+              theme in mind personalized schools accessories at very reasonable
+              price. We are glad to inform you that we are one who tie up with
+              all accessories manufactures and we supply all school accessories
+              at a time.
             </p>
             <div className='flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row'>
               <a
@@ -26,38 +30,18 @@ const HomeScreen = () => {
                 rel='noopener'
                 className='px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md '
               >
-                Download for Free
-              </a>
-              <a
-                href='#'
-                target='_blank'
-                rel='noopener'
-                className='flex items-center space-x-2 text-gray-500'
-              >
-                <svg
-                  role='img'
-                  width='24'
-                  height='24'
-                  className='w-5 h-5'
-                  viewBox='0 0 24 24'
-                  fill='currentColor'
-                  xmlns='http://www.w3.org/2000/svg'
-                >
-                  <title>GitHub</title>
-                  <path d='M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12'></path>
-                </svg>
-                <span> View on Github</span>
+                Contact Us
               </a>
             </div>
           </div>
         </div>
 
-        <div className='flex items-center justify-center w-full lg:w-1/2'>
+        <div className='flex items-end justify-end w-full lg:w-1/2'>
           <div className=''>
             <img
               alt='Hero Illustration'
               loading='eager'
-              width='616'
+              width='516'
               height='617'
               decoding='async'
               data-nimg='1'
@@ -67,17 +51,18 @@ const HomeScreen = () => {
           </div>
         </div>
       </div>
-      <div className='container p-8 mx-auto xl:px-0 flex w-full flex-col mt-8 items-center justify-center text-center'>
-        <div className='text-sm font-bold tracking-wider text-indigo-600 uppercase'>
-          Nextly Benefits
+      <div className='container p-8 my-10 mx-auto xl:px-0 flex w-full flex-col mt-8 items-center justify-center text-center'>
+        <div className='text-xl font-bold tracking-wider text-indigo-600 uppercase'>
+          Schools Material Corner
         </div>
-        <h2 className='max-w-2xl mt-3 text-3xl font-bold text-gray-800 lg:leading-tight lg:text-4xl'>
-          Why should you use this landing page
+        <h2 className='max-w-4xl mt-3 text-3xl font-bold text-gray-800 lg:leading-tight lg:text-3xl'>
+          Why choose us as your school Accessories - Supplier?
         </h2>
         <p className='max-w-2xl py-4 text-lg text-gray-500 lg:text-xl xl:text-xl'>
-          Nextly is a free landing page &amp; marketing website template for
-          startups and indie projects. Its built with Next.js &amp; TailwindCSS.
-          And its completely open-source.
+          As a market leader, we notice that schools Accessories Vendors doesn't
+          Provide accessories as per schedule and not available/ supply of all
+          Accessories by vendors and this is major issue that bother all
+          students and schools management.
         </p>
       </div>
       <div className='container p-8 mx-auto xl:px-0 flex flex-wrap'>
@@ -86,21 +71,14 @@ const HomeScreen = () => {
             src='https://nextly.web3templates.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbenefit-one.a3b4f792.png&w=1080&q=75'
             alt='Hero Illustration'
             loading='eager'
-            width='521'
+            width='421'
             height='548'
             className='object-cover'
           />
         </div>
         <div className='flex items-center w-full lg:w-1/2'>
           <div className='flex flex-col justify-center'>
-            <h1 className='text-4xl font-bold text-gray-800'>
-              Highlight your benefits
-            </h1>
-            <p className='text-xl text-gray-500 py-5'>
-              You can use this space to highlight your first benefit or a
-              feature of your product. It can also contain an image or
-              Illustration like in the example along with some bullet points.
-            </p>
+            <h1 className='text-4xl font-bold text-gray-800'>Features</h1>
             <div className='w-full space-y-9 mt-7'>
               <div className='flex'>
                 <div className='bg-indigo-500 w-11 h-11 rounded flex items-center justify-center mr-3 mt-1'>
@@ -120,10 +98,11 @@ const HomeScreen = () => {
                 </div>
                 <div className='pt-0'>
                   <h4 className='text-xl font-medium text-gray-800 pt-0'>
-                    Understand your customers
+                    Customization
                   </h4>
                   <p className='mt-1 text-gray-500'>
-                    Then explain the first point breifly in one or two lines.
+                    we manufacture and design customized Uniforms, ties, belts,
+                    diaries etc., on your demand
                   </p>
                 </div>
               </div>
@@ -145,10 +124,11 @@ const HomeScreen = () => {
                 </div>
                 <div>
                   <h4 className='text-xl font-medium text-gray-800'>
-                    Improve acquisition
+                    Affordable price
                   </h4>
                   <p className='mt-1 text-gray-500'>
-                    Here you can add the next benefit point.
+                    As we have supplying bulk accessories is our pricing is
+                    affordable
                   </p>
                 </div>
               </div>
@@ -170,10 +150,38 @@ const HomeScreen = () => {
                 </div>
                 <div>
                   <h4 className='text-xl font-medium text-gray-800'>
-                    Drive customer retention
+                    Quality fabric
                   </h4>
                   <p className='mt-1 text-gray-500'>
-                    This will be your last bullet point in this section.
+                    we understand student require uniforms that give comfort
+                    hence we use quality and durable design school uniforms
+                  </p>
+                </div>
+              </div>
+              <div className='flex'>
+                <div className='bg-indigo-500 mt-1 w-11 h-11 rounded flex items-center justify-center mr-3'>
+                  <svg
+                    xmlns='http://www.w3.org/2000/svg'
+                    viewBox='0 0 24 24'
+                    fill='currentColor'
+                    aria-hidden='true'
+                    className='w-7 h-7 text-indigo-50'
+                  >
+                    <path
+                      fillRule='evenodd'
+                      d='M12 1.5a.75.75 0 01.75.75V4.5a.75.75 0 01-1.5 0V2.25A.75.75 0 0112 1.5zM5.636 4.136a.75.75 0 011.06 0l1.592 1.591a.75.75 0 01-1.061 1.06l-1.591-1.59a.75.75 0 010-1.061zm12.728 0a.75.75 0 010 1.06l-1.591 1.592a.75.75 0 01-1.06-1.061l1.59-1.591a.75.75 0 011.061 0zm-6.816 4.496a.75.75 0 01.82.311l5.228 7.917a.75.75 0 01-.777 1.148l-2.097-.43 1.045 3.9a.75.75 0 01-1.45.388l-1.044-3.899-1.601 1.42a.75.75 0 01-1.247-.606l.569-9.47a.75.75 0 01.554-.68zM3 10.5a.75.75 0 01.75-.75H6a.75.75 0 010 1.5H3.75A.75.75 0 013 10.5zm14.25 0a.75.75 0 01.75-.75h2.25a.75.75 0 010 1.5H18a.75.75 0 01-.75-.75zm-8.962 3.712a.75.75 0 010 1.061l-1.591 1.591a.75.75 0 11-1.061-1.06l1.591-1.592a.75.75 0 011.06 0z'
+                      clipRule='evenodd'
+                    ></path>
+                  </svg>
+                </div>
+                <div>
+                  <h4 className='text-xl font-medium text-gray-800'>
+                    Reflects schools Image
+                  </h4>
+                  <p className='mt-1 text-gray-500'>
+                    we desgin uniforms, diaries, notebooks, ties, belts, that
+                    truly represent your school logo/image so People can easily
+                    identify that particular youngstar belong to your school
                   </p>
                 </div>
               </div>
@@ -185,83 +193,19 @@ const HomeScreen = () => {
         <div className='flex items-center w-full lg:w-1/2'>
           <div className='flex flex-col justify-center'>
             <h1 className='text-4xl font-bold text-gray-800'>
-              Offer more benefits here
+              Schools accessories manufacturers &amp; suppliers
             </h1>
             <p className='text-xl text-gray-500 py-5'>
-              You can use this space to highlight your first benefit or a
-              feature of your product. It can also contain an image or
-              Illustration like in the example along with some bullet points.
+              Searching for schools Accessories manufacturers in SMC is the sole
+              destination where you find customized range of school accessories
+              We deal with the school uniforms printed T-shirts, printed ties,
+              printed logo ties, school belts, Uniform blazers, customized
+              diaries, Note books etc., All these are available in different
+              sizes and designs. Contact Us today and buy at competitive price.
             </p>
-            <div className='w-full space-y-9 mt-7'>
-              <div className='flex'>
-                <div className='bg-indigo-500 w-11 h-11 rounded flex items-center justify-center mr-3 mt-1'>
-                  <svg
-                    xmlns='http://www.w3.org/2000/svg'
-                    viewBox='0 0 24 24'
-                    fill='currentColor'
-                    aria-hidden='true'
-                    className='w-7 h-7 text-indigo-50'
-                  >
-                    <path d='M10.5 18.75a.75.75 0 000 1.5h3a.75.75 0 000-1.5h-3z'></path>
-                    <path
-                      fillRule='evenodd'
-                      d='M8.625.75A3.375 3.375 0 005.25 4.125v15.75a3.375 3.375 0 003.375 3.375h6.75a3.375 3.375 0 003.375-3.375V4.125A3.375 3.375 0 0015.375.75h-6.75zM7.5 4.125C7.5 3.504 8.004 3 8.625 3H9.75v.375c0 .621.504 1.125 1.125 1.125h2.25c.621 0 1.125-.504 1.125-1.125V3h1.125c.621 0 1.125.504 1.125 1.125v15.75c0 .621-.504 1.125-1.125 1.125h-6.75A1.125 1.125 0 017.5 19.875V4.125z'
-                      clipRule='evenodd'
-                    ></path>
-                  </svg>
-                </div>
-                <div className='pt-0'>
-                  <h4 className='text-xl font-medium text-gray-800 pt-0'>
-                    Mobile Responsive Template
-                  </h4>
-                  <p className='mt-1 text-gray-500'>
-                    Nextly is designed as a mobile first responsive template.
-                  </p>
-                </div>
-              </div>
-              <div className='flex'>
-                <div className='bg-indigo-500 mt-1 w-11 h-11 rounded flex items-center justify-center mr-3'>
-                  <svg
-                    xmlns='http://www.w3.org/2000/svg'
-                    viewBox='0 0 24 24'
-                    fill='currentColor'
-                    aria-hidden='true'
-                    className='w-7 h-7 text-indigo-50'
-                  >
-                    <path d='M18.75 12.75h1.5a.75.75 0 000-1.5h-1.5a.75.75 0 000 1.5zM12 6a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5A.75.75 0 0112 6zM12 18a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5A.75.75 0 0112 18zM3.75 6.75h1.5a.75.75 0 100-1.5h-1.5a.75.75 0 000 1.5zM5.25 18.75h-1.5a.75.75 0 010-1.5h1.5a.75.75 0 010 1.5zM3 12a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5A.75.75 0 013 12zM9 3.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5zM12.75 12a2.25 2.25 0 114.5 0 2.25 2.25 0 01-4.5 0zM9 15.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z'></path>
-                  </svg>
-                </div>
-                <div>
-                  <h4 className='text-xl font-medium text-gray-800'>
-                    Powered by Next.js &amp; TailwindCSS
-                  </h4>
-                  <p className='mt-1 text-gray-500'>
-                    This template is powered by latest technologies and tools.
-                  </p>
-                </div>
-              </div>
-              <div className='flex'>
-                <div className='bg-indigo-500 mt-1 w-11 h-11 rounded flex items-center justify-center mr-3'>
-                  <svg
-                    xmlns='http://www.w3.org/2000/svg'
-                    viewBox='0 0 24 24'
-                    fill='currentColor'
-                    aria-hidden='true'
-                    className='w-7 h-7 text-indigo-50'
-                  >
-                    <path d='M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z'></path>
-                  </svg>
-                </div>
-                <div>
-                  <h4 className='text-xl font-medium text-gray-800'>
-                    Dark &amp; Light Mode
-                  </h4>
-                  <p className='mt-1 text-gray-500'>
-                    Nextly comes with a zero-config light &amp; dark mode.
-                  </p>
-                </div>
-              </div>
-            </div>
+            <p className='font-bold text-indigo-500 text-2xl'>
+              Your trust is our strength.
+            </p>
           </div>
         </div>
         <div className='flex items-center justify-center w-full lg:w-1/2'>
@@ -275,6 +219,7 @@ const HomeScreen = () => {
           />
         </div>
       </div>
+      {/* stats count */}
       <div className='bg-white py-24 sm:py-32'>
         <div className='mx-auto max-w-7xl px-6 lg:px-8'>
           <dl className='grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3'>
@@ -306,7 +251,8 @@ const HomeScreen = () => {
         </div>
       </div>
 
-      <div className='flex flex-col justify-center'>
+      {/* Trusted by schools */}
+      {/* <div className='flex flex-col justify-center'>
         <div className='text-xl text-center text-gray-700 '>
           Trusted by <span className='text-indigo-600'>2000+</span> customers
           worldwide
@@ -414,12 +360,10 @@ const HomeScreen = () => {
             </svg>
           </div>
         </div>
-      </div>
+      </div> */}
 
+      {/* Faqs  */}
       <div className='container p-8 mx-auto xl:px-0 flex w-full flex-col mt-4 items-center justify-center text-center'>
-        <div className='text-sm font-bold tracking-wider text-indigo-600 uppercase'>
-          FAQ
-        </div>
         <h2 className='max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl'>
           Frequently Asked Questions
         </h2>
@@ -531,11 +475,9 @@ const HomeScreen = () => {
 
       <div className='flex flex-wrap items-center justify-between w-full max-w-4xl gap-5 mx-auto text-white bg-indigo-600 px-7 py-7 lg:px-12 lg:py-12 lg:flex-nowrap rounded-xl'>
         <div className='flex-grow text-center lg:text-left'>
-          <h2 className='text-2xl font-medium lg:text-3xl'>
-            Ready to try-out this template?
-          </h2>
+          <h2 className='text-2xl font-medium lg:text-3xl'>Ready To Order</h2>
           <p className='mt-2 font-medium text-white text-opacity-90 lg:text-xl'>
-            Don't let your visitors see a poor landing.
+            Don't let your interest lost , order now
           </p>
         </div>
         <div className='flex-shrink-0 w-full text-center lg:w-auto'>
@@ -545,7 +487,7 @@ const HomeScreen = () => {
             rel='noopener noreferrer'
             className='inline-block py-3 mx-auto text-lg font-medium text-center text-indigo-600 bg-white rounded-md px-7 lg:px-10 lg:py-5 '
           >
-            Download for Free
+            Contact Us
           </a>
         </div>
       </div>
