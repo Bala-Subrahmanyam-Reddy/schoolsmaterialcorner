@@ -8,7 +8,7 @@ const Footer = () => {
               {' '}
               <a
                 className='flex items-center space-x-2 text-2xl font-medium text-indigo-500 '
-                href='#'
+                href='https://test.com'
               >
                 <img
                   alt='N'
